@@ -1,0 +1,45 @@
+.App {
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3em;
+  text-align: center;
+}
+
+.Download {
+  margin: 1em;
+}
+
+.Crop {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+  img {
+    max-height: 200px;
+  }
+}
+
+a {
+  color: #61dafb;
+}
+
+input,
+textarea,
+label,
+button {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  width: 200px;
+  padding: 10px;
+}
+
+input,
+textarea,
+button {
+  margin-bottom: 1em;
+}
